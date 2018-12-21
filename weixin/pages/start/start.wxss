@@ -1,0 +1,48 @@
+/* start.wxss */
+.bottomMiddleHeaderItemSubView {
+  /*display: flex;
+  align-items: ceter;
+  justify-content:center;*/
+  height: 40rpx;
+
+}
+.btn1{
+  width: 100%;
+  top: 0%;
+  background-color:#c9c4f51c;
+  color:rgb(94, 13, 245)
+}
+/*
+.radio-group{
+  left: 30%;
+  top: 30%;
+  position: absolute
+}
+*/
+
+
+#input{
+  background-color: #c2c1ff;
+  width: 60%;
+  height: 88rpx;
+  top: 45%;
+  left: 18%;
+  position: absolute
+  }
+
+  /*#text{
+  color: #888888;
+  font-family:PingFangSC-Regular;
+  font-size:12px;
+  top: 55%;
+  left: 17%;
+  position: absolute
+  }
+*/
+  #btn3{
+  height: 100rpx;
+  top: 60%;
+  width: 100%;
+  color: rgb(248, 182, 182);
+
+  }

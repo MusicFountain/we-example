@@ -1,0 +1,23 @@
+<!--start.wxml-->
+<audio src="{{audioSrc}}" poster="{{audioPoster}}" name="{{audioName}}" author="{{audioAuthor}}" controls></audio>
+
+
+ <image style='width: 400px; height:300px' src='../image/hj1.jpg' mode='aspectFit'></image>
+
+<view class="container">
+  <view animation="{{animation}}" class="view">
+    <!--动画主体为cat.jpg-->
+    <image class="image" src='/pages/image/collectHL.png'></image> 
+  </view>
+</view>
+<!--点击按钮，图片旋转-->
+<button type="primary" bindtap="rotate">旋转</button>
+
+
+<button class="btn1" bindtap="validate">
+天气小报告</button>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label style="display: flex"  wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>

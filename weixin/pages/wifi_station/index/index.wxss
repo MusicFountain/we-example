@@ -1,0 +1,77 @@
+/**index.wxss**/
+.backpicture{
+
+  width:100%;
+
+  height: 1250rpx;
+
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524997977864&di=34994cfd234a57759aa5ab9cdde3bffa&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F038ceb855deb9790000015995eebd72.jpg)no-repeat;  /*只能用网络地址*/
+
+  background-size: cover;
+
+  /*层叠布局*/
+
+  z-index: 0;
+
+  /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+
+  position: absolute;
+
+}
+
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  color:aqua
+}
+
+.userinfo-nickname {
+  color:aqua;
+}
+
+.usermotto {
+  margin-bottom: 10%
+}
+
+.img {
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50%
+  
+}
+
+
+.btns {
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%
+ 
+}
+
+.container {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+} 
