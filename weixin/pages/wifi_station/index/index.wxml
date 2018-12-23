@@ -3,19 +3,13 @@
 
 
 <view class = 'backpicture'> 
-
- 
-    
-  <view class='selection'>
-    <image src='{{tempFilePaths}}' class='img' mode="aspectFit"></image>
-    <view class='btns'>
-      <button bindtap='chooseimage'>获取图片</button>
-      <button bindtap='identifyimage'>识别图片</button>
-    </view>
- </view>
-
-
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<button class="btn1" bindtap="validate">
+曲线图</button>
+<radio-group class="radio-group" bindchange="radioChange">
+  <label style="display: flex"  wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
 </view>
+
+
